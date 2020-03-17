@@ -1,0 +1,118 @@
+.column {
+  display: flex;
+  width: 33.33%;
+  padding: 2px;
+}
+.clearfix {
+
+  overflow: auto;
+  zoom: 1;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* body {
+  background-color: lightblue;
+} */
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+width: 70%;
+}
+
+th {
+height: 50px;
+}
+
+.cape {
+  display: flex;
+  
+} 
+ .places {
+  flex-grow: 1;
+} 
+.places img {
+  width: 300px;
+  height: 150px;
+}
+.content {
+  display: flex;
+}
+.main {
+  background-color: beige;
+}
+.header {
+  
+  padding: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+ .row {
+  display: flex;
+  
+} 
+ .content {
+  flex: 1;
+} 
+.table {
+  background-color: ;
+}
+.historical {
+  background-color:;
+}
+a{
+  font-size: larger;
+  color: aqua;
+}
+
+
+/* @media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  } */
+
+@media(min-width:800px){
+    .column1{
+       display: flex;
+    }
+       .content {
+        flex: 1;
+      
+    
+        padding: 1em;
+  }
+  
+   .places img {
+    width: 200px;
+    height: 200px;
+    padding: 0.5em;
+  } 
+  .content {
+    flex: 1;
+  }
+  .places {
+    flex: 1;
+
+  } 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .cape {
+    display: flex;
+    
+  } 
+  .chuma {
+    display: flex;
+  }
+}
+
