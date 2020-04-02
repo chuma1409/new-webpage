@@ -64,18 +64,39 @@ height: 50px;
   flex: 1;
 } 
 .table {
-  background-color: ;
+ background-color: whitesmoke;
 }
 .historical {
   background-color:;
 }
 a{
   font-size: larger;
+  color: black;
+
+}
+body {
+  background-color: beige;
+}
+.land {
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+.l {
   color: aqua;
 }
-.tbm {
-  padding-left: 3rem;
+.back {
+  background-color: black;
 }
+.container {
+  background-color: beige;
+}
+P {
+  background-color: ;
+  padding-right: 30%;
+}
+
 
 
 /* @media screen and (max-width: 500px) {
@@ -119,7 +140,7 @@ a{
     display: flex;
   }
   .tbm {
-    padding-left: 3rem;
+    padding-left: 20%;
   }
 }
 
