@@ -11,7 +11,43 @@ width: 70%;
 th {
 height: 50px;
 }
+.container{
+  column-width: auto;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .places {
+    flex: 1;
 
+  } 
+
+  .column {
+  display: flex;
+  width: 33.33%;
+  padding: 2px;
+}
+.clearfix {
+
+  overflow: auto;
+  zoom: 1;
+}
+.cape {
+  display: flex;
+  
+} 
+ .places {
+  flex-grow: 1;
+} 
+.places img {
+  width: 300px;
+  height: 150px;
+}
+.content {
+  display: flex;
+}
 </style>
 <head>
   <link rel="stylesheet" href="./css/grid/simple-grid.css">
@@ -78,7 +114,7 @@ height: 50px;
         <div class="row">
        
           <h1>Historical places in Cape Town</h1>
-      
+      <div class="cape">
           <div class="col-4">
               <h2> Castle of Good Hope</h2>
               
@@ -120,6 +156,7 @@ height: 50px;
   
               
             </div>
+      </div>
           </div>
         </div>
         
